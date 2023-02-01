@@ -168,6 +168,7 @@ nav ul li a{
 /*--2nd-page--*/
 .us{
     width: 100%;
+    overflow: hidden;
     
 }
 .us h1{
@@ -361,6 +362,7 @@ nav ul li a{
     margin: 10px;
     flex-direction: column;
     justify-content: space-around;
+    overflow: hidden;
     
 }
 .main-com{
