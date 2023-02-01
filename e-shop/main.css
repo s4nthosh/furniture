@@ -43,7 +43,7 @@ nav ul li a{
     justify-content: start;
     margin-top: -55px;
     z-index: 1;
-    cursor: pointerd;
+    cursor: pointer;
 }
 .bag{
     display: flex;
@@ -439,7 +439,6 @@ nav ul li a{
 }
 .tot-cont{
     display: flex;
-    flex-direction: row;
 }
 .custom-con{
     display: flex;
@@ -543,4 +542,83 @@ nav ul li a{
     list-style: none;
     color: white;
     padding: 10px 0;
+}
+/*--mobile--*/
+@media only screen and (max-width: 480px){
+ nav{
+    display: none;
+ }
+ .logo{
+    margin-top: 5px;
+ }
+ .content h1{
+    font-size: 28px;
+ }
+ .content p{
+    font-size: 14px;
+ }
+ .content .searchbar input{
+    height: 40px;
+    width: 300px;
+ }
+ .searchbar .btn{
+    margin-top: 1px;
+    margin-left: 259px;
+ }
+ .idea-content{
+    display: flex;
+    flex-direction: column;
+ }
+ .ic .img-con{
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.product{
+    flex-wrap: wrap;
+}
+.comment h2{
+    font-size: 18px;
+
+}
+.comment p{
+    font-size: 14px;
+    padding: 10px 5px;
+
+}
+
+.comment h4{
+    font-size: 14px;
+}
+.comment h5{
+    font-size: 12px;
+}
+.tot-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-con{
+    width: 100%;
+}
+
+.cus-img img{
+    width: 300px;
+}
+.custom-con .mail-bar input{
+    width: 300px;
+    height: 40px;
+}
+.mail-bar .btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 277px;
+    margin-top: 0px;
+    display: flex;
+}
+.contact-us{
+    flex-wrap: wrap;
+}
 }
